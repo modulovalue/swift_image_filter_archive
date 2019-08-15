@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46078A7D1B28FCA600C25B62 /* CustomPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46078A7C1B28FCA600C25B62 /* CustomPhotoAlbum.swift */; };
+		461506D71B1F7EF1006B4F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461506D61B1F7EF1006B4F4A /* AppDelegate.swift */; };
+		461506DA1B1F7EF1006B4F4A /* Nightlapse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 461506D81B1F7EF1006B4F4A /* Nightlapse.xcdatamodeld */; };
+		461506DC1B1F7EF1006B4F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461506DB1B1F7EF1006B4F4A /* ViewController.swift */; };
+		461506DF1B1F7EF1006B4F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461506DD1B1F7EF1006B4F4A /* Main.storyboard */; };
+		461506E11B1F7EF1006B4F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461506E01B1F7EF1006B4F4A /* Images.xcassets */; };
+		461506E41B1F7EF1006B4F4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461506E21B1F7EF1006B4F4A /* LaunchScreen.xib */; };
+		461506F01B1F7EF1006B4F4A /* NightlapseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461506EF1B1F7EF1006B4F4A /* NightlapseTests.swift */; };
+		46C62F641B3F26C9001CBDB6 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C62F631B3F26C9001CBDB6 /* Timer.swift */; };
+		46C62F671B3F44BE001CBDB6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C62F661B3F44BE001CBDB6 /* Extension.swift */; };
+		46C62F691B3F5AF3001CBDB6 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C62F681B3F5AF3001CBDB6 /* Filter.swift */; };
+		46E123ED1B2B126A00149000 /* Camera Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E123EC1B2B126A00149000 /* Camera Settings.swift */; };
+		46E3487E1B404EB4001BD68E /* Liner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3487D1B404EB4001BD68E /* Liner.swift */; };
+		46E4191A1B389502003DA9A2 /* Wanderlust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E419191B389502003DA9A2 /* Wanderlust.swift */; };
+		46E637CC1B3748BC000D5AB9 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E637CB1B3748BC000D5AB9 /* Filters.swift */; };
+		46E903191B3E32710085B480 /* MotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E903181B3E32710085B480 /* MotionKit.swift */; };
+		46E903201B3E43520085B480 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E9031F1B3E43520085B480 /* GPUImage.framework */; };
+		46E903211B3E43520085B480 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46E9031F1B3E43520085B480 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461506EA1B1F7EF1006B4F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461506C91B1F7EF1006B4F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461506D01B1F7EF1006B4F4A;
+			remoteInfo = Nightlapse;
+		};
+		46C62F5E1B3EE09D001CBDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E124121B2B43FF00149000 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		46C62F601B3EE09D001CBDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E124121B2B43FF00149000 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46E124211B2B448A00149000 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				46E903211B3E43520085B480 /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46078A7C1B28FCA600C25B62 /* CustomPhotoAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoAlbum.swift; sourceTree = "<group>"; };
+		461506D11B1F7EF1006B4F4A /* Nightlapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nightlapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461506D51B1F7EF1006B4F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461506D61B1F7EF1006B4F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		461506D91B1F7EF1006B4F4A /* Nightlapse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nightlapse.xcdatamodel; sourceTree = "<group>"; };
+		461506DB1B1F7EF1006B4F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		461506DE1B1F7EF1006B4F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		461506E01B1F7EF1006B4F4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		461506E31B1F7EF1006B4F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		461506E91B1F7EF1006B4F4A /* NightlapseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightlapseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461506EE1B1F7EF1006B4F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461506EF1B1F7EF1006B4F4A /* NightlapseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightlapseTests.swift; sourceTree = "<group>"; };
+		46C62F631B3F26C9001CBDB6 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		46C62F661B3F44BE001CBDB6 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		46C62F681B3F5AF3001CBDB6 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		46E123EC1B2B126A00149000 /* Camera Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Camera Settings.swift"; sourceTree = "<group>"; };
+		46E124121B2B43FF00149000 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = Nightlapse/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		46E3487D1B404EB4001BD68E /* Liner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Liner.swift; sourceTree = "<group>"; };
+		46E419191B389502003DA9A2 /* Wanderlust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wanderlust.swift; sourceTree = "<group>"; };
+		46E637CB1B3748BC000D5AB9 /* Filters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		46E903181B3E32710085B480 /* MotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionKit.swift; sourceTree = "<group>"; };
+		46E9031F1B3E43520085B480 /* GPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = GPUImage.framework; path = "/Users/valauskasmodestas/Library/Developer/Xcode/DerivedData/Nightlapse-eqykzvbjyjywzhcmtumuigaaphep/Build/Products/Debug-iphoneos/GPUImage.framework"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461506CE1B1F7EF1006B4F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E903201B3E43520085B480 /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461506E61B1F7EF1006B4F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461506C81B1F7EF1006B4F4A = {
+			isa = PBXGroup;
+			children = (
+				46E9031F1B3E43520085B480 /* GPUImage.framework */,
+				46E124121B2B43FF00149000 /* GPUImage.xcodeproj */,
+				461506D31B1F7EF1006B4F4A /* Nightlapse */,
+				461506EC1B1F7EF1006B4F4A /* NightlapseTests */,
+				461506D21B1F7EF1006B4F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		461506D21B1F7EF1006B4F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461506D11B1F7EF1006B4F4A /* Nightlapse.app */,
+				461506E91B1F7EF1006B4F4A /* NightlapseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461506D31B1F7EF1006B4F4A /* Nightlapse */ = {
+			isa = PBXGroup;
+			children = (
+				46E419171B38948E003DA9A2 /* Filters */,
+				461506D61B1F7EF1006B4F4A /* AppDelegate.swift */,
+				461506DB1B1F7EF1006B4F4A /* ViewController.swift */,
+				461506DD1B1F7EF1006B4F4A /* Main.storyboard */,
+				461506E01B1F7EF1006B4F4A /* Images.xcassets */,
+				461506E21B1F7EF1006B4F4A /* LaunchScreen.xib */,
+				461506D81B1F7EF1006B4F4A /* Nightlapse.xcdatamodeld */,
+				461506D41B1F7EF1006B4F4A /* Supporting Files */,
+				46078A7C1B28FCA600C25B62 /* CustomPhotoAlbum.swift */,
+				46E123EC1B2B126A00149000 /* Camera Settings.swift */,
+				46E637CB1B3748BC000D5AB9 /* Filters.swift */,
+				46E903181B3E32710085B480 /* MotionKit.swift */,
+				46C62F631B3F26C9001CBDB6 /* Timer.swift */,
+				46C62F661B3F44BE001CBDB6 /* Extension.swift */,
+			);
+			path = Nightlapse;
+			sourceTree = "<group>";
+		};
+		461506D41B1F7EF1006B4F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				461506D51B1F7EF1006B4F4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		461506EC1B1F7EF1006B4F4A /* NightlapseTests */ = {
+			isa = PBXGroup;
+			children = (
+				461506EF1B1F7EF1006B4F4A /* NightlapseTests.swift */,
+				461506ED1B1F7EF1006B4F4A /* Supporting Files */,
+			);
+			path = NightlapseTests;
+			sourceTree = "<group>";
+		};
+		461506ED1B1F7EF1006B4F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				461506EE1B1F7EF1006B4F4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		462A9EB41B3C639700DFF759 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				46E3487D1B404EB4001BD68E /* Liner.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		46C62F591B3EE09D001CBDB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46C62F5F1B3EE09D001CBDB6 /* libGPUImage.a */,
+				46C62F611B3EE09D001CBDB6 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E419171B38948E003DA9A2 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				46E4191E1B38A367003DA9A2 /* Filters */,
+				46E4191D1B38A360003DA9A2 /* Components */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		46E419181B389495003DA9A2 /* Traditional */ = {
+			isa = PBXGroup;
+			children = (
+				46E419191B389502003DA9A2 /* Wanderlust.swift */,
+			);
+			name = Traditional;
+			sourceTree = "<group>";
+		};
+		46E4191D1B38A360003DA9A2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		46E4191E1B38A367003DA9A2 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				462A9EB41B3C639700DFF759 /* Components */,
+				46E419181B389495003DA9A2 /* Traditional */,
+				46C62F681B3F5AF3001CBDB6 /* Filter.swift */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461506D01B1F7EF1006B4F4A /* Nightlapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461506F31B1F7EF1006B4F4A /* Build configuration list for PBXNativeTarget "Nightlapse" */;
+			buildPhases = (
+				461506CD1B1F7EF1006B4F4A /* Sources */,
+				461506CE1B1F7EF1006B4F4A /* Frameworks */,
+				461506CF1B1F7EF1006B4F4A /* Resources */,
+				46E124211B2B448A00149000 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nightlapse;
+			productName = Nightlapse;
+			productReference = 461506D11B1F7EF1006B4F4A /* Nightlapse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461506E81B1F7EF1006B4F4A /* NightlapseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461506F61B1F7EF1006B4F4A /* Build configuration list for PBXNativeTarget "NightlapseTests" */;
+			buildPhases = (
+				461506E51B1F7EF1006B4F4A /* Sources */,
+				461506E61B1F7EF1006B4F4A /* Frameworks */,
+				461506E71B1F7EF1006B4F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461506EB1B1F7EF1006B4F4A /* PBXTargetDependency */,
+			);
+			name = NightlapseTests;
+			productName = NightlapseTests;
+			productReference = 461506E91B1F7EF1006B4F4A /* NightlapseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461506C91B1F7EF1006B4F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "ModestasV Studios";
+				TargetAttributes = {
+					461506D01B1F7EF1006B4F4A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					461506E81B1F7EF1006B4F4A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 461506D01B1F7EF1006B4F4A;
+					};
+				};
+			};
+			buildConfigurationList = 461506CC1B1F7EF1006B4F4A /* Build configuration list for PBXProject "Nightlapse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461506C81B1F7EF1006B4F4A;
+			productRefGroup = 461506D21B1F7EF1006B4F4A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46C62F591B3EE09D001CBDB6 /* Products */;
+					ProjectRef = 46E124121B2B43FF00149000 /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				461506D01B1F7EF1006B4F4A /* Nightlapse */,
+				461506E81B1F7EF1006B4F4A /* NightlapseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		46C62F5F1B3EE09D001CBDB6 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 46C62F5E1B3EE09D001CBDB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46C62F611B3EE09D001CBDB6 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 46C62F601B3EE09D001CBDB6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461506CF1B1F7EF1006B4F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461506DF1B1F7EF1006B4F4A /* Main.storyboard in Resources */,
+				461506E41B1F7EF1006B4F4A /* LaunchScreen.xib in Resources */,
+				461506E11B1F7EF1006B4F4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461506E71B1F7EF1006B4F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461506CD1B1F7EF1006B4F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E123ED1B2B126A00149000 /* Camera Settings.swift in Sources */,
+				461506DC1B1F7EF1006B4F4A /* ViewController.swift in Sources */,
+				46C62F691B3F5AF3001CBDB6 /* Filter.swift in Sources */,
+				461506DA1B1F7EF1006B4F4A /* Nightlapse.xcdatamodeld in Sources */,
+				46E637CC1B3748BC000D5AB9 /* Filters.swift in Sources */,
+				46E4191A1B389502003DA9A2 /* Wanderlust.swift in Sources */,
+				46C62F671B3F44BE001CBDB6 /* Extension.swift in Sources */,
+				46E903191B3E32710085B480 /* MotionKit.swift in Sources */,
+				46E3487E1B404EB4001BD68E /* Liner.swift in Sources */,
+				46078A7D1B28FCA600C25B62 /* CustomPhotoAlbum.swift in Sources */,
+				461506D71B1F7EF1006B4F4A /* AppDelegate.swift in Sources */,
+				46C62F641B3F26C9001CBDB6 /* Timer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461506E51B1F7EF1006B4F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461506F01B1F7EF1006B4F4A /* NightlapseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461506EB1B1F7EF1006B4F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461506D01B1F7EF1006B4F4A /* Nightlapse */;
+			targetProxy = 461506EA1B1F7EF1006B4F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		461506DD1B1F7EF1006B4F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461506DE1B1F7EF1006B4F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		461506E21B1F7EF1006B4F4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461506E31B1F7EF1006B4F4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		461506F11B1F7EF1006B4F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461506F21B1F7EF1006B4F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461506F41B1F7EF1006B4F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nightlapse/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Nightlapse-eqykzvbjyjywzhcmtumuigaaphep/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Nightlapse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		461506F51B1F7EF1006B4F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nightlapse/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Nightlapse-eqykzvbjyjywzhcmtumuigaaphep/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Nightlapse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		461506F71B1F7EF1006B4F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NightlapseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightlapse.app/Nightlapse";
+			};
+			name = Debug;
+		};
+		461506F81B1F7EF1006B4F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NightlapseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightlapse.app/Nightlapse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461506CC1B1F7EF1006B4F4A /* Build configuration list for PBXProject "Nightlapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461506F11B1F7EF1006B4F4A /* Debug */,
+				461506F21B1F7EF1006B4F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461506F31B1F7EF1006B4F4A /* Build configuration list for PBXNativeTarget "Nightlapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461506F41B1F7EF1006B4F4A /* Debug */,
+				461506F51B1F7EF1006B4F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461506F61B1F7EF1006B4F4A /* Build configuration list for PBXNativeTarget "NightlapseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461506F71B1F7EF1006B4F4A /* Debug */,
+				461506F81B1F7EF1006B4F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		461506D81B1F7EF1006B4F4A /* Nightlapse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				461506D91B1F7EF1006B4F4A /* Nightlapse.xcdatamodel */,
+			);
+			currentVersion = 461506D91B1F7EF1006B4F4A /* Nightlapse.xcdatamodel */;
+			path = Nightlapse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 461506C91B1F7EF1006B4F4A /* Project object */;
+}

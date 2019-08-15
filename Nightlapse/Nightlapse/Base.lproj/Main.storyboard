@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nightlapse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GPUImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.25" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hf4-xT-BPb">
+                                <rect key="frame" x="26" y="585" width="324" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" white="0.84619140625" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="thumbTintColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="fourthSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="zpy-Dr-VRV"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.65000000000000002" minValue="0.25" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HDd-P4-Cnc">
+                                <rect key="frame" x="26" y="547" width="324" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" white="0.8461914062" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="thumbTintColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="thirdSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="hbT-Jv-utT"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MJI-00-gpq">
+                                <rect key="frame" x="26" y="509" width="324" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" white="0.8461914062" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="thumbTintColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="secondSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="HmX-35-iic"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FyK-9v-tQ8">
+                                <rect key="frame" x="26" y="471" width="324" height="31"/>
+                                <color key="minimumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" white="0.8461914062" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="thumbTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="firstSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="xkJ-QZ-js1"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFl-7C-Jal">
+                                <rect key="frame" x="83" y="623" width="51" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.60999999999999999" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Nkn-2V-vZD"/>
+                                    <constraint firstAttribute="width" constant="51" id="bPf-oG-Apf"/>
+                                </constraints>
+                                <state key="normal" title="O">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Ev-oc-NYp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kv-hY-rfM">
+                                <rect key="frame" x="241" y="623" width="51" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.60999999999999999" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="zO0-05-BjV"/>
+                                </constraints>
+                                <state key="normal" title="I">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="singleShot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eod-n8-gaB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7I-yr-LRc">
+                                <rect key="frame" x="299" y="28" width="49" height="30"/>
+                                <state key="normal" title="Liner™">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="liner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q4T-rK-LnM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="HDd-P4-Cnc" firstAttribute="trailing" secondItem="Hf4-xT-BPb" secondAttribute="trailing" id="1Th-TV-G0c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0kv-hY-rfM" secondAttribute="trailing" constant="67" id="455-l4-REp"/>
+                            <constraint firstItem="sFl-7C-Jal" firstAttribute="baseline" secondItem="0kv-hY-rfM" secondAttribute="firstBaseline" id="5Pm-iT-q9B"/>
+                            <constraint firstItem="D7I-yr-LRc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="7GL-60-txu"/>
+                            <constraint firstItem="FyK-9v-tQ8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="Ctw-X7-ngU"/>
+                            <constraint firstItem="HDd-P4-Cnc" firstAttribute="top" secondItem="MJI-00-gpq" secondAttribute="bottom" constant="8" symbolic="YES" id="M2Q-cI-WWL"/>
+                            <constraint firstItem="0kv-hY-rfM" firstAttribute="top" secondItem="sFl-7C-Jal" secondAttribute="top" id="MrK-bF-MGu"/>
+                            <constraint firstItem="MJI-00-gpq" firstAttribute="trailing" secondItem="FyK-9v-tQ8" secondAttribute="trailing" id="OGS-PA-bVW"/>
+                            <constraint firstItem="D7I-yr-LRc" firstAttribute="trailing" secondItem="FyK-9v-tQ8" secondAttribute="trailing" id="VCY-IX-ZoS"/>
+                            <constraint firstItem="HDd-P4-Cnc" firstAttribute="trailing" secondItem="MJI-00-gpq" secondAttribute="trailing" id="WW4-sS-eiV"/>
+                            <constraint firstItem="HDd-P4-Cnc" firstAttribute="leading" secondItem="Hf4-xT-BPb" secondAttribute="leading" id="bN7-ra-wXZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FyK-9v-tQ8" secondAttribute="trailing" constant="11" id="bOi-8u-NFx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sFl-7C-Jal" secondAttribute="bottom" constant="8" symbolic="YES" id="bWb-CT-nmp"/>
+                            <constraint firstItem="MJI-00-gpq" firstAttribute="leading" secondItem="FyK-9v-tQ8" secondAttribute="leading" id="dWE-t3-Lft"/>
+                            <constraint firstItem="MJI-00-gpq" firstAttribute="top" secondItem="FyK-9v-tQ8" secondAttribute="bottom" constant="8" symbolic="YES" id="mRy-hs-6xz"/>
+                            <constraint firstItem="0kv-hY-rfM" firstAttribute="baseline" secondItem="sFl-7C-Jal" secondAttribute="firstBaseline" id="o3G-5C-v1H"/>
+                            <constraint firstItem="HDd-P4-Cnc" firstAttribute="leading" secondItem="MJI-00-gpq" secondAttribute="leading" id="qQz-fn-seK"/>
+                            <constraint firstItem="sFl-7C-Jal" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="rVR-Ly-Epp"/>
+                            <constraint firstItem="Hf4-xT-BPb" firstAttribute="top" secondItem="HDd-P4-Cnc" secondAttribute="bottom" constant="8" symbolic="YES" id="t5x-QB-XH5"/>
+                            <constraint firstItem="sFl-7C-Jal" firstAttribute="top" secondItem="Hf4-xT-BPb" secondAttribute="bottom" constant="8" symbolic="YES" id="tul-Wa-C0r"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="b4J-8R-z4K"/>
+                        <outlet property="shootButton" destination="sFl-7C-Jal" id="yGe-db-sgv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246.5" y="365.5"/>
+        </scene>
+    </scenes>
+</document>
